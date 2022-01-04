@@ -1,0 +1,23 @@
+<%- include('partials/header.ejs') %>
+
+  
+
+  
+  <table>
+    <tr>
+      <th>Name</th>
+      <th>Contact</th>
+    </tr>
+    <% for(let i = 0; i < items.length; i++ ){ %>
+            <tr>
+              <td><%= items[i].name %></td>
+              <td><%= items[i].phno %></td>
+            </tr>
+            <% } %>
+            <tr>
+          </table>
+        
+        
+    </body>
+    </html>
+
